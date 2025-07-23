@@ -3,9 +3,9 @@ import vertexai
 from vertexai.preview import reasoning_engines
 from vertexai import agent_engines
 
-PROJECT_ID = "heb-sandbox-abcd"
+PROJECT_ID = "GCP_PROJECT_ID"
 LOCATION = "us-central1"  # Or any other supported region
-STAGING_BUCKET = "gs://heb-sandbox-abcd" # A Cloud Storage bucket for staging
+STAGING_BUCKET = "gs://GCS_BUCKET_ID" # A Cloud Storage bucket for staging
 
 from my_basic_agent.agent import basic_agent
 
